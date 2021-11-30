@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('../fonts/Manrope/Manrope-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Manrope-Light';
+    src: url('../fonts/Manrope/Manrope-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('../fonts/Manrope/Manrope-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
