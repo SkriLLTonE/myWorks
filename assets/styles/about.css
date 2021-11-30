@@ -1,0 +1,123 @@
+.about {
+    background: linear-gradient(to right, #fff 60%, #757575 40%);
+    padding: 80px 161px;
+}
+
+.about_wrap {
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 44px;
+    flex-direction: row;
+}
+
+.about_heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about_text_devis {
+    margin: 21px 0;
+}
+
+.about_text_devis h2 {
+    font-size: 44px;
+    font-family: "Manrope-Medium", sans-serif;
+}
+
+.about_text_txt {
+    font-size: 30px;
+}
+
+.about_line {
+    width: 220px;
+    height: 2px;
+    background: #000000;
+    margin: 20px 0;
+}
+
+.about_img img {
+    max-width: 700px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .about{
+        padding: 80px 40px;
+        background: linear-gradient(to right, #fff 70%, #757575 30%);
+    }
+    .about_text_devis h2 {
+        font-size: 30px;
+    }
+
+    .about_text_txt {
+        font-size: 20px;
+    }
+
+    .about_img img {
+        max-width: 576px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .about{
+        padding: 80px 30px;
+    }
+    .about_img img {
+        max-width: 520px;
+    }
+
+    .about_text_devis h2 {
+        font-size: 25px;
+    }
+
+    .about_text_txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about{
+        padding: 80px 30px;
+    }
+    .about_img img {
+        max-width: 420px;
+    }
+    .about_text_devis h2 {
+        font-size: 25px;
+    }
+
+    .about_text_txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about{
+        padding: 80px 15px;
+        background: #FFFFFF;
+    }
+    .about_wrap {
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .about_content_img {
+        text-align: center;
+    }
+
+    .about_img img {
+        width: 100%;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_line {
+        margin: 20px auto;
+    }
+}
