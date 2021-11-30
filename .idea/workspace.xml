@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ebf04e2-80d3-44a5-a967-d31af3e022f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +50,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638271918950</updated>
-      <workItem from="1638271920036" duration="11872000" />
+      <workItem from="1638271920036" duration="11955000" />
+      <workItem from="1638285200559" duration="36000" />
     </task>
     <servers />
   </component>
@@ -66,7 +63,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
