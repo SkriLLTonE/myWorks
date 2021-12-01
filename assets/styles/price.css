@@ -1,0 +1,138 @@
+.price {
+    background-color: #E8E8E8;
+}
+
+.price_heading {
+    padding: 100px 0 0 0;
+}
+
+.price>.container {
+    padding: 0 15px;
+}
+.price_heading{
+    font-size: 30px;
+}
+.price_wrap {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #141414;
+    color: #fff;
+    height: 330px;
+    max-width: 530px;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.card_body_content {
+    display: flex;
+    flex-wrap: no-wrap;
+    gap: 30px;
+}
+
+.card_body_heading {
+    font-family: "Manrope-Light", sans-serif;
+    font-size: 36px;
+    line-height: 72px;
+    font-style: normal;
+}
+
+
+.card_body_content_text {
+    font-size: 19px;
+    font-family: "Manrope-Light", sans-serif;
+    line-height: 150%
+}
+
+.card_body_content_btn {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width:1600px) {
+    .price_wrap {
+        justify-content: center;
+    }
+
+    .card {
+        padding: 20px;
+        background-color: #141414;
+        color: #fff;
+        height: 275px;
+        max-width: 470px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .price_wrap {
+        padding: 0 0 50px;
+    }
+    .price_heading{
+        font-size: 17px;
+        padding: 20px;
+    }
+    .card {
+        padding: 20px;
+        background-color: #141414;
+        color: #fff;
+        height: 175px;
+        max-width: 343px;
+    }
+
+    .card_body_heading {
+        font-family: "Manrope-Light", sans-serif;
+        font-size: 17px;
+        line-height: 25, 5px;
+        font-style: normal;
+    }
+
+
+    .card_body_content_text {
+        font-size: 15px;
+        font-family: "Manrope-Light", sans-serif;
+        line-height: 22, 5px;
+    }
+
+    .card_body_content_btn {
+        padding: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .card_body_content_btn img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .card_body_heading{
+        line-height: normal;
+    }
+    .card {
+        padding: 10px;
+        height: auto;
+        max-width: 300px;
+    }
+    .card_body_content{
+        align-items: center;
+    }
+}

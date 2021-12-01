@@ -112,6 +112,9 @@
         justify-content: center;
 
     }
+    .banner__bt_svg{
+        display: none;
+    }
 
     .banner__bt {
         flex-direction: column;
