@@ -1,8 +1,8 @@
 .port {
     background-color: black;
     background-image: url(../img/dots.svg);
-    background-size: cover;
-    /* animation: ball linear infinite 160s; */
+    background-size: contain;
+    animation: ball linear infinite 60s;
     color: white;
     padding: 100px 0 245px;
     position: relative;
