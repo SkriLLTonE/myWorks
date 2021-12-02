@@ -2,18 +2,15 @@
     background-color: #E8E8E8;
 }
 
-.price_heading {
-    padding: 100px 0 0 0;
-}
-
-.price>.container {
+.price > .container {
     padding: 0 15px;
 }
 .price_heading{
     font-size: 30px;
+    padding: 100px 0 0 0;
 }
 .price_wrap {
-    padding: 100px 0;
+    padding: 100px 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +64,7 @@
 
 
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1680px) {
     .price_wrap {
         justify-content: center;
     }
