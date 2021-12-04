@@ -78,19 +78,23 @@
     padding: 78px 36px;
     font-size: 30px;
     font-weight: 400px;
-    color: #000;
     outline: none;
     border: none;
     border-radius: 50%;
-    transition: color ease-in-out 0.4s ;
+    transition: all ease-in-out 0.4s ;
     z-index: 1001;
 }
 .port_behance_btn:hover{
     background: #0057ff;
+  
+}
+.port_behance_btn a{
+    color: #000;
+    transition: color ease-in-out 0.4s ;
+}
+.port_behance_btn:hover a{
     color: #fff;
 }
-
-
 
 @keyframes ball {
     from {
