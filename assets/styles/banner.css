@@ -68,6 +68,7 @@
     border: none;
     padding: 0 15px;
     animation: rotate infinite 4s linear;
+    cursor: pointer;
 }
 
 .banner__btn:hover {

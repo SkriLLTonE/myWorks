@@ -97,7 +97,7 @@
 
     @media screen and (max-width:991px) {
         .formdata {
-            padding: 0;
+            padding: 50px 0;
         }
 
         .formdata_wrap {
@@ -124,5 +124,28 @@
             font-size: 17px;
             font-weight: 500;
             line-height: 26px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .formdata_email a {
+            color: #000;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+
+
+        .formdata_text h2 {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+        .formdata_submit_btn img{
+            width: 40px;
+            height: 40px;
+        }
+        .formdata_submit{
+            gap: 20px;
         }
     }

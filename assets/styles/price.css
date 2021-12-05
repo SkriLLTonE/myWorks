@@ -2,13 +2,15 @@
     background-color: #E8E8E8;
 }
 
-.price > .container {
+.price>.container {
     padding: 0 15px;
 }
-.price_heading{
+
+.price_heading {
     font-size: 30px;
     padding: 100px 0 0 0;
 }
+
 .price_wrap {
     padding: 100px 0 50px;
     display: flex;
@@ -20,6 +22,7 @@
 }
 
 .card {
+    cursor: pointer;
     padding: 20px;
     background-color: #141414;
     color: #fff;
@@ -31,19 +34,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     height: 100%;
 }
 
 .card_body_content {
     display: flex;
     flex-wrap: no-wrap;
+    justify-content: space-between;
     gap: 30px;
 }
 
 .card_body_heading {
     font-family: "Manrope-Light", sans-serif;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 72px;
     font-style: normal;
 }
@@ -60,9 +63,13 @@
     outline: none;
     border: none;
     padding: 10px;
+    transition: fill 0.3s, background-color 0.3s, transform 0.3s ease-in-out;
 }
 
-
+.card_body_content_btn:hover {
+    transform: rotate(-45deg);
+    background-color: #757575;
+}
 
 @media screen and (max-width:1680px) {
     .price_wrap {
@@ -82,10 +89,12 @@
     .price_wrap {
         padding: 0 0 50px;
     }
-    .price_heading{
+
+    .price_heading {
         font-size: 17px;
         padding: 20px;
     }
+
     .card {
         padding: 20px;
         background-color: #141414;
@@ -121,15 +130,18 @@
 }
 
 @media screen and (max-width:360px) {
-    .card_body_heading{
+    .card_body_heading {
         line-height: normal;
     }
+
     .card {
         padding: 10px;
         height: auto;
         max-width: 300px;
     }
-    .card_body_content{
+
+    .card_body_content {
         align-items: center;
+        justify-content: space-between;
     }
 }
