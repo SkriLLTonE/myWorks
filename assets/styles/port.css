@@ -73,6 +73,7 @@
     text-align: center;
 }
 .port_behance_btn{
+    animation: rotate infinite 4s linear;
     position: relative;
     background: #757575;
     padding: 78px 36px;
@@ -201,8 +202,10 @@
     }
     .port_behance{
         bottom: -42px;
+        
     }
     .port_behance_btn{
+        
         font-size: 14px;
         padding: 36px 15px;
     }

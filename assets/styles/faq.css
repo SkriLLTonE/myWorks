@@ -18,8 +18,9 @@
 
 .faq_card {
     border-top: 2px solid #C4C4C4;
+}
+.faq_card:last-child{
     border-bottom: 2px solid #C4C4C4;
-
 }
 
 .faq_accardion_heading {
@@ -62,17 +63,12 @@
     transition: background-color 0.5s, transform 0.5s ease-in-out;
 
 }
-
-.faq_accardion:hover .faq_symbol {
-    background-color: #c4c4c466;
-}
-
 .faq_accardion.active>.faq_symbol {
     transform: rotate(45deg);
 }
 
-.faq_accardion.active>.faq_card {
-    padding: 20px 0;
+.faq_accardion.active .faq_card {
+    padding: 30px 0;
 }
 
 @media screen and (max-width:1060px) {
