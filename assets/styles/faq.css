@@ -61,7 +61,7 @@
     font-size: 34px;
     color: #757575;
     transition: background-color 0.5s, transform 0.5s ease-in-out;
-
+    user-select: none;
 }
 .faq_accardion.active>.faq_symbol {
     transform: rotate(45deg);

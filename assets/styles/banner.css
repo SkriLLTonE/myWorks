@@ -169,6 +169,8 @@
 
     .banner__btn {
         margin: 25px 0 0 0;
+        width: 171px;
+        height: 171px;
     }
     .banner__bt_txt {
         font-size: 15px;
