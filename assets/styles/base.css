@@ -7,14 +7,15 @@
 }
 body{
     font-family:  'Manrope-Regular',sans-serif;
+    min-width: 320px;
+}
+html{
+      scroll-behavior: smooth;   
 }
 .container {
     max-width: 1680px;
     margin: 0 auto;
     padding: 0 15px;
-}
-a{
-    color: white;
 }
 
 .grey{

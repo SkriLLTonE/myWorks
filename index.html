@@ -1,101 +1,428 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>какой то сайт</title>
+    <title>Circle</title>
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css">
 </head>
+
 <body>
-<header id="header" class="header">
-    <div class="header_wrap">
-        <div class="nav">
-            <div class="logo">
-                <a href="#">
-                    <img src="./assets/img/Logo.png" alt="">
-                </a>
+    <header id="header" class="header">
+        <div class="header_wrap">
+            <div class="nav">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menu__nav">
+                        <li class="menu__nav_li "><a href="#about">О нас</a></li>
+                        <li class="menu__nav_li "><a href="#price">Наши услуги</a></li>
+                        <li class="menu__nav_li "><a href="#port">Портфолио</a></li>
+                        <li class="menu__nav_li "><a href="#team">Наша команда</a></li>
+                        <li class="menu__nav_li "><a href="#FAQ">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="show">
+                    <div class="toggle">
+                        <span class="center"></span>
+                    </div>
+                </div>
             </div>
-            <div class="menu">
-                <ul class="menu__nav">
-                    <li class="menu__nav_li "><a href="#">О нас</a></li>
-                    <li class="menu__nav_li "><a href="#">Наши услуги</a></li>
-                    <li class="menu__nav_li "><a href="#">Портфолио</a></li>
-                    <li class="menu__nav_li "><a href="#">Наша команда</a></li>
-                    <li class="menu__nav_li "><a href="#">Чаво</a></li>
+        </div>
+    </header>
+    <div class="menu_mobile">
+        <ul class="menu__nav_mobile">
+            <li class="menu__nav_li_mobile "><a href="#about">О нас</a></li>
+            <li class="menu__nav_li_mobile "><a href="#price">Наши услуги</a></li>
+            <li class="menu__nav_li_mobile "><a href="#port">Портфолио</a></li>
+            <li class="menu__nav_li_mobile "><a href="#team">Наша команда</a></li>
+            <li class="menu__nav_li_mobile "><a href="#FAQ">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="container">
+            <div class="banner__wrap">
+                <div class="banner__top">
+                    <div class="banner__logo">
+                        <img src="./assets/img/banner.png" alt="">
+                    </div>
+                </div>
+                <div class="banner__bt">
+                    <div class="banner__bt_svg">
+                        <a href="#about"> <img src="./assets/img/Vector.svg" alt=""></a>
+                    </div>
+                    <div class="banner__bt_txt">
+                        <h1>Создаем сайты и веб-сервисы </h1>
+                        <h2>которые приносят <span class="grey"> прибыль.</span></h2>
+                    </div>
+                    <div class="banner__bt_btn">
+                        <a href="#formdata"> <button class="banner__btn">Заказать работу</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about_wrap">
+                <div class="about_content">
+                    <div class="about_heading">
+                        <h3>О нас</h3>
+                    </div>
+                    <div class="about_text">
+                        <div class="about_text_devis">
+                            <h2>Circle. - это продуманная структура , аналитический подход и современный дизайн.</h2>
+                        </div>
+                        <div class="about_text_txt">
+                            <p>Мы создаем сайты любой сложности и рассматриваем каждую задачу комплексно: от маркетинга
+                                и
+                                управления до создания интуитивного пользовательского взаимодействия и использования
+                                трендов
+                                в дизайне.</p>
+                            <div class="about_line"></div>
+                            <p>Мы не занимаемся творчеством. Мы занимаемся коммерческим дизайном. Помогаем малому и
+                                среднему
+                                бизнесу выделяться на фоне конкурентов и зарабатывать деньги.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_content_img">
+                    <div class="about_img">
+                        <img src="./assets/img/about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="price" id="price">
+        <div class="container">
+            <div class="price_heading">
+                <h3>
+                    Наши услуги
+                </h3>
+            </div>
+            <div class="price_wrap">
+                <div class="card" data-aos="flip-up" data-aos-duration="500">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Продуманные лендинги</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Приведем Ваших пользователей к целевому действию</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Интернет-Магазины</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Понятный сайт с каталогом, корзиной и удобным личным
+                                кабинетом</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-duration="1500">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Многостраничные сайты</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Сайты с большим объемом информации и интуитивно понятной
+                                навигацией</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-duration="500">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Чат-боты</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Автоматизация процессов с помощью чат-ботов</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Техподдержка сайтов</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Подписка на техподдержку сайтов</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-duration="1500">
+                    <div class="card_body">
+                        <div class="card_body_heading">
+                            <h2>Экспресс-дизайн</h2>
+                        </div>
+                        <div class="card_body_content">
+                            <h3 class="card_body_content_text">Готовый лендинг за 7 дней без правок по фиксированной
+                                цене</h3>
+                            <button class="card_body_content_btn"><img src="./assets/img/arrow.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list_heading">
+                <h2>
+                    Этапы работы
+                </h2>
+            </div>
+            <div class="list">
+                <ul class="list_menu">
+                    <h2 class="list_heading">Подготовка</h2>
+                    <li class="menu-item"><span href="#">Брифинг</span></li>
+                    <li class="menu-item"><span href="#">Подбор референсов</span></li>
+                    <li class="menu-item"><span href="#">Создание прототипа</span></li>
+                </ul>
+                <ul class="list_menu">
+                    <h2 class="list_heading">Подготовка</h2>
+                    <li class="menu-item"><span href="#">Дизайн-концепция</span></li>
+                    <li class="menu-item"><span href="#">Верстка сайта</span></li>
+                    <li class="menu-item"><span href="#">Мобильная адаптация</span></li>
+                </ul>
+                <ul class="list_menu">
+                    <h2 class="list_heading">Подготовка</h2>
+                    <li class="menu-item"><span href="#">Подключение домена и аналитики</span></li>
+                    <li class="menu-item"><span href="#">Настройка SEO</span></li>
+                    <li class="menu-item"><span href="#">Обучение управлению сайтом</span></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="port" id="port">
+        <div class="port_container">
+            <div class="port_heading">
+                <h2>
+                    Портфолио
+                </h2>
+            </div>
+            <div class="port_wrap">
+                <div class="port_card_img" data-aos="fade-right" data-aos-duration="1500">
+                    <a target="_blank" href="https://www.behance.net/gallery/119661675/Music-Platform-UIUX-Concept?tracking_source=search_projects_recommended%7Clanding%20">
+                        <img src="./assets/img/port1.png" alt="">
+                    </a>
+                    <div class="port_pos_text">
+                        <h3>Музыкальная платформа “BPM”</h3>
+                        <p>Веб-приложение</p>
+                    </div>
+                </div>
+                <div class="port_card_img top" data-aos="fade-left" data-aos-duration="1500">
+                    <a target="_blank" href="https://www.behance.net/gallery/125178001/Landing-page-for-the-Italian-restaurant?tracking_source=search_projects_recommended%7Clanding%20"> 
+                        <img src="./assets/img/port2.png" alt="">
+                    </a>
+                    <div class="port_pos_text">
+                        <h3>Ресторан “Napoli”</h3>
+                        <p>Лэндинг</p>
+                    </div>
+                </div>
+                <div class="port_card_img" data-aos="fade-right" data-aos-duration="1500">
+                    <a target="_blank" href="https://www.behance.net/gallery/118082961/Modern-wine-boutique-Website-concept?tracking_source=search_projects_recommended%7Cwine%20time%20">
+                        <img src="./assets/img/port3.png" alt="">
+                    </a>
+                    <div class="port_pos_text">
+                        <h3>Винный бутик “Wine Time”</h3>
+                        <p>Online-магазин</p>
+                    </div>
+                </div>
+                <div class="port_card_img top" data-aos="fade-left">
+                    <a target="_blank" href="https://www.behance.net/gallery/127426281/internet-magazin-KAOLIN?tracking_source=search_projects_recommended%7Ckaolin%20">
+                        <img src="./assets/img/port4.png" alt="">
+                    </a>
+                    <div class="port_pos_text">
+                        <h3>Ювелирный магазин “Kaolin”</h3>
+                        <p>Online-магазин</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team" id="team">
+        <div class="port_behance">
+            <button class="port_behance_btn"><a href="https://www.behance.net/" target="_blank">Behance</a></button>
+        </div>
+        <div class="container">
+            <div class="team_heading">
+                <h3>Наша команда</h3>
+            </div>
+            <div class="team_wrap">
+                <div class="team__card" data-aos="flip-left" data-aos-duration="1200">
+                    <img src="./assets/img/person1.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Благов Никита </h2>
+                        <p class="team_vacancy">Генеральный директор</p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="1500">
+                    <img src="./assets/img/person2.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Хайткулов Тимур</h2>
+                        <p class="team_vacancy">Веб-разработчик</p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/img/person3.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Болдырев Владислав </h2>
+                        <p class="team_vacancy">UX/UI-Дизайнер</p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="2500">
+                    <img src="./assets/img/person4.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Дана Магдиева</h2>
+                        <p class="team_vacancy">Арт-Директор</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="team_wrap">
+                <div class="team__card" data-aos="flip-left" data-aos-duration="1200">
+                    <img src="./assets/img/person5.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Арутюнян Вазген </h2>
+                        <p class="team_vacancy">Flutter-разработчик</p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="1500">
+                    <img src="./assets/img/person6.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Бахтиязова Диана</h2>
+                        <p class="team_vacancy">Интернет маркетолог</p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/img/person7.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Сопина Екатерина </h2>
+                        <p class="team_vacancy">Менеджер по продажам </p>
+                    </div>
+                </div>
+                <div class="team__card" data-aos="flip-left" data-aos-duration="2500">
+                    <img src="./assets/img/person8.png" alt="">
+                    <div class="team__card_body">
+                        <h2 class="team_name">Смирнова Ирина </h2>
+                        <p class="team_vacancy">SEO-специалист</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="faq" id="FAQ">
+        <div class="container">
+            <div class="faq_heading">
+                <h3>Часто задаваемые вопросы</h3>
+            </div>
+            <div class="faq_wrap">
+                <div class="faq_card">
+                    <div class="faq_accardion">
+                        <h2 class="faq_accardion_heading">Какие дополнительные расходы могут быть?</h2>
+                        <button class="faq_symbol">+</button>
+                    </div>
+                    <p class="faq_panel">1,Любой проект – это сложный и адаптивный процесс, в ходе которого возникает множество нюансов, влияющих в том числе на его стоимость (мы, например, не раз принимали с Заказчиком совместно решение отказаться от лишнего функционала, что существенно сокращало бюджет). Наш подход – поэтапная работа, с реализацией какого-то важного функционала на каждом этапе. Оплата также производится за этап. По сути, на каждом этапе вы получаете готовый рабочий функционал, который можно внедрять в работу. </p>
+                </div>
+                <div class="faq_card">
+                    <div class="faq_accardion">
+                        <h2 class="faq_accardion_heading">Можно ли подключить свой существующий домен к новому сайту?
+                        </h2>
+                        <button class="faq_symbol">+</button>
+                    </div>
+                    <p class="faq_panel">Можно, Чтобы привязать домен к новому сайту, нужно сначала открепить его от старого </p>
+                </div>
+                <div class="faq_card">
+                    <div class="faq_accardion">
+                        <h2 class="faq_accardion_heading">Смогу ли я после создания сайта самостоятельно менять контент?
+                        </h2>
+                        <button class="faq_symbol">+</button>
+                    </div>
+                    <p class="faq_panel">Сможете,если конечно же подключена CMS система,например WORDPRESS( что в свою очередь входит в дополнительные услуги, если это не прописано в  тз) </p>
+                </div>
+                <div class="faq_card">
+                    <div class="faq_accardion">
+                        <h2 class="faq_accardion_heading">Уже поработал неудачно с вашими конкурентам. Какие гарантии вы
+                            даете?</h2>
+                        <button class="faq_symbol">+</button>
+                    </div>
+                    <p class="faq_panel"> Наша основная гарантия – это результат в виде рабочего и готового к использованию продукта (сайта). Мы знаем, пожалуй, большинство причин неудачных проектов и построили процесс работы так, чтобы их избежать. И готовы убедить вас действиями, а не словами. Просто оставьте свои контакты и бесплатно продумаем, и предложим вам «антикризисное» решение для вашего проекта – четкий план как его «оживить» и довести до результата. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formdata" id="formdata">
+        <div class="container">
+            <div class="formdata_wrap">
+                <div class="formdata_text">
+                    <h2>Нужен сайт?</h2>
+                    <p>Оставьте заявку или напиште нам:</p>
+                    <div class="formdata_email">
+                        <a href="mailto:kakoytomail@gmail.com" target="_blank">kakoytomail@gmail.com</a>
+                    </div>
+                    <div class="formdata_arrow">
+                        <img src="./assets/img/arrow2.svg" alt="">
+                    </div>
+                </div>
+                <form class="form">
+                    <label for="name">Ваше имя</label>
+                    <input class="formdata_input" id="name" type="text" name="name">
+                    <label for="org">О вашей компании(название, сфера деятельности)</label>
+                    <input id="org" class="formdata_input" type="text" name="org">
+                    <label for="phone">Телефон</label>
+                    <input id="phone" class="formdata_input" type="text" name="phone">
+                    <label for="email">Еmail</label>
+                    <input id="email" class="formdata_input" type="text" name="email">
+                    <div class="formdata_submit">
+                        <p>Отправить заявку</p>
+                        <button class="formdata_submit_btn" type="submit">
+                            <img src="./assets/img/arrowWhite.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer_wrap">
+                <ul class="footer_list">
+                    <h2>Наши соц.сети</h2>
+                    <li class="footer_list_item"><a href="">Instagram</a></li>
+                    <li class="footer_list_item"><a href="">Instagram</a></li>
+                    <li class="footer_list_item"><a href="">Instagram</a></li>
+                </ul>
+                <ul class="footer_list">
+                    <h2>По всем вопросам</h2>
+                    <li class="footer_list_item"><a href="">Telegram</a></li>
+                    <li class="footer_list_item"><a href="">Whatsapp</a></li>
+                    <li class="footer_list_item"> <a href="mailto:kakoytomail@gmail.com"
+                            target="_blank">kakoytomail@gmail.com</a></li>
                 </ul>
             </div>
-            <div class="show">
-                <div class="toggle">
-                    <span class="center"></span>
-                </div>
-            </div>
         </div>
-    </div>
-</header>
-<div class="menu_mobile">
-    <ul class="menu__nav_mobile">
-        <li class="menu__nav_li_mobile "><a href="#">О нас</a></li>
-        <li class="menu__nav_li_mobile "><a href="#">Наши услуги</a></li>
-        <li class="menu__nav_li_mobile "><a href="#">Портфолио</a></li>
-        <li class="menu__nav_li_mobile "><a href="#">Наша команда</a></li>
-        <li class="menu__nav_li_mobile "><a href="#">Чаво</a></li>
-    </ul>
-</div>
-<div class="banner">
-    <div class="container">
-        <div class="banner__wrap">
-            <div class="banner__top">
-                <div class="banner__logo">
-                    <img src="./assets/img/banner.png" alt="">
-                </div>
-            </div>
-            <div class="banner__bt">
-                <div class="banner__bt_svg">
-                    <a href="#"> <img src="./assets/img/Vector.svg" alt=""></a>
-                </div>
-                <div class="banner__bt_txt">
-                    <h1>Создаем сайты и веб-сервисы </h1>
-                    <h2>которые приносят <span class="grey"> прибыль.</span></h2>
-                </div>
-                <div class="banner__bt_btn">
-                    <button class="banner__btn">Заказать работу</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="about" id="about">
-    <div class="container">
-        <div class="about_wrap">
-            <div class="about_content">
-                <div class="about_heading">
-                    <h3>О нас</h3>
-                </div>
-                <div class="about_text">
-                    <div class="about_text_devis">
-                        <h2>Circle. - это продуманная структура , аналитический подход и современный дизайн.</h2>
-                    </div>
-                    <div class="about_text_txt">
-                        <p>Мы создаем сайты любой сложности и рассматриваем каждую задачу комплексно: от маркетинга и
-                            управления до создания интуитивного пользовательского взаимодействия и использования трендов
-                            в дизайне.</p>
-                        <div class="about_line"></div>
-                        <p>Мы не занимаемся творчеством. Мы занимаемся коммерческим дизайном. Помогаем малому и среднему
-                            бизнесу выделяться на фоне конкурентов и зарабатывать деньги.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about_content_img">
-                <div class="about_img">
-                    <img src="./assets/img/about.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="./assets/scripts/main.js"></script>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/scripts/main.js"></script>
 </body>
+
 </html>

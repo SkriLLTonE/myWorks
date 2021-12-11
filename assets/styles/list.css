@@ -1,0 +1,48 @@
+.list_heading{
+    padding:  0 0 27px 0 ;
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    gap:30px;
+}
+
+.list_menu{
+    list-style: disc;
+    color: black;
+    width: 100%;
+}
+.menu-item{
+    list-style: disc;
+    margin: 20px  0 0 0;
+    list-style-position:inside;                    
+}
+.menu-item::marker{
+    margin-right: 50px !important;
+}
+
+.menu-item span{
+    color: #000;
+    margin-left: 20px ;
+}
+
+
+@media screen and (max-width:1680px) {
+    .list{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .list_menu{
+        width: unset;
+    }
+ 
+}
+@media screen and (max-width:768px) {
+    .menu-item span{
+        margin-left: 0;
+    }
+}
+

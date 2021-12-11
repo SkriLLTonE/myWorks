@@ -1,9 +1,17 @@
 /* imports css  */
 @import "fonts.css";
 @import "base.css";
-@import "vars.css";
 @import "header.css";
 @import "banner.css";
 @import "about.css";
+@import "price.css";
+@import "list.css";
+@import "port.css";
+@import "team.css";
+@import "faq.css";
+@import "formdata.css";
+@import "footer.css";
+
+
 
 

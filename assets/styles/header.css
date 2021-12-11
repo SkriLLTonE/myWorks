@@ -61,7 +61,7 @@
     align-self: center;
 }
 
-.menu__nav_li a:hover {
+.menu__nav_li:hover a {
     color: #3eb5f1;
 }
 

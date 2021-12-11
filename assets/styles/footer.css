@@ -1,0 +1,53 @@
+.footer {
+    background-color: #141414;
+    padding: 139px 0;
+}
+.footer_list_item{
+    margin: 0 0 5px 0;
+}
+.footer_wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.icon {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+  }
+  .icon-arrow {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/icon-arrow-black.svg);
+  }
+.footer_list h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 30px;
+    user-select: none;
+}
+.footer_list_item a{
+    color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.footer_list_item:hover a{
+    color: #3eb5f1;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        padding: 40px 0px;
+    }
+    .footer_wrap{
+        justify-content: flex-start;
+        gap: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_list_item{
+        margin: 0 0 20px 0;
+    }
+}

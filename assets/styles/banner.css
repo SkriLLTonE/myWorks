@@ -68,10 +68,11 @@
     border: none;
     padding: 0 15px;
     animation: rotate infinite 4s linear;
+    cursor: pointer;
 }
 
 .banner__btn:hover {
-    background: #A0BCE9;
+    background: #3eb5f1;
     color: #fff;
     transition: all ease-in-out 0.6s;
 }
@@ -111,6 +112,9 @@
     .banner__top {
         justify-content: center;
 
+    }
+    .banner__bt_svg{
+        display: none;
     }
 
     .banner__bt {
@@ -165,6 +169,8 @@
 
     .banner__btn {
         margin: 25px 0 0 0;
+        width: 171px;
+        height: 171px;
     }
     .banner__bt_txt {
         font-size: 15px;

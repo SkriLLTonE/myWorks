@@ -1,0 +1,152 @@
+    .formdata {
+        padding: 100px 0;
+    }
+
+    .formdata_wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .formdata_text {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .formdata_text h2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 72px;
+    }
+
+    .formdata_text p {
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+
+    .formdata_email a {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        color: #000;
+
+    }
+
+    .formdata_email:hover a {
+        color: #A0BCE9;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .formdata_arrow {
+        align-self: flex-end;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 60%;
+    }
+
+    .form label {
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+
+    .formdata_input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #C4C4C4;
+        padding: 0 5px;
+        width: 100%;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+
+    .formdata_submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .formdata_submit p {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 72px;
+    }
+
+    .formdata_submit_btn {
+        border-radius: 50%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background: #757575;
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .formdata_submit_btn:hover {
+        background: #141414;
+    }
+
+    @media screen and (max-width:991px) {
+        .formdata {
+            padding: 50px 0;
+        }
+
+        .formdata_wrap {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .formdata_arrow {
+            display: none;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .formdata_submit {
+            justify-content: flex-end;
+        }
+
+        .formdata_submit p {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+            user-select: none;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .formdata_email a {
+            color: #000;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+
+
+        .formdata_text h2 {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+        .formdata_submit_btn img{
+            width: 40px;
+            height: 40px;
+        }
+        .formdata_submit{
+            gap: 20px;
+        }
+    }
