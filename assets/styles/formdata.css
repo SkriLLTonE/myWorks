@@ -43,6 +43,7 @@
 
     .formdata_arrow {
         align-self: flex-end;
+        margin-top: 30px;
     }
 
     .form {
@@ -89,11 +90,14 @@
         border: none;
         outline: none;
         background: #757575;
-        transition: background-color 0.5s ease-in-out;
+        transition: background-color 0.5s, transform 0.5s ease-in-out;
+      
+        
     }
 
     .formdata_submit_btn:hover {
         background: #141414;
+        transform: rotate(-45deg);
     }
 
     @media screen and (max-width:991px) {
@@ -111,6 +115,7 @@
         }
 
         .form {
+            margin: 20px 0;
             display: flex;
             flex-direction: column;
             gap: 30px;
@@ -130,6 +135,9 @@
     }
 
     @media screen and (max-width:768px) {
+        .formdata {
+            padding: 0;
+        }
         .formdata_email a {
             color: #000;
             font-size: 17px;
@@ -142,6 +150,11 @@
             font-size: 17px;
             font-weight: 500;
             line-height: 26px;
+        }
+        .formdata_text p {
+            font-size: 13px;
+            font-weight: 400;
+            
         }
         .formdata_submit_btn img{
             width: 40px;
