@@ -83,6 +83,7 @@
     }
 
     .formdata_submit_btn {
+        display: flex;
         border-radius: 50%;
         padding: 10px;
         border: none;
