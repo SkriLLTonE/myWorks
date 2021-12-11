@@ -2,11 +2,19 @@
     background-color: black;
     background-image: url(../img/dotsbg.png);
     background-size: contain;
-    animation: ball linear infinite 90s;
+    animation: ball linear infinite 120s;
     color: white;
     padding: 100px 0 245px;
     position: relative;
-  
+    z-index: 100;
+    overflow: hidden;
+}
+.port_card_img a img{
+    filter: grayscale(1);
+    transition: filter 0.3s ease-in-out;
+}
+.port_card_img a img:hover{
+    filter: grayscale(0);
 }
 
 .port_container {
@@ -36,12 +44,17 @@
 }
 
 .port_pos_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     bottom: 65px;
     left: -68px;
     background: #fff;
     color: #000;
-    padding: 32px 160px 35px 30px;
+    padding: 20px;
+    width: 503px;
+    height: 175px;
 }
 
 .port_pos_text p {
@@ -52,7 +65,7 @@
 
 .port_pos_text h3 {
     font-weight: 500;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 150%;
 }
 
@@ -67,7 +80,7 @@
 }
 .port_behance{
     position: absolute;
-    bottom: -90px;
+    top: -90px;
     left: 0;
     z-index: 1001;
     width: 100%;
@@ -99,12 +112,15 @@
 }
 
 @keyframes ball {
-    from {
+    0% {
         background-position: 3000px 90%, 180% 40%, 0 0;
     }
 
-    to {
+    50% {
         background-position: -2000px 90%, -300px 20%, 0 0;
+    }
+    100% {
+        background-position: 3000px 90%, 180% 40%, 0 0;
     }
 }
 
@@ -130,12 +146,13 @@
     }
 
     .port_wrap {
-        gap: 30px 60px;
+        gap: 30px;
         justify-content: space-evenly;
     }
 
     .port_pos_text {
-        padding: 8px 150px 8px 30px;
+        width: 345px;
+        height: 100px;
     }
 
     .port_pos_text p {
@@ -146,13 +163,13 @@
 
     .port_pos_text h3 {
         font-weight: 500;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 150%;
     }
 }
 @media screen and (max-width:991px){
     .port_behance{
-        bottom: -70px;
+        top: -70px;
     }
     .port_behance_btn{
         font-size: 22px;
@@ -188,21 +205,22 @@
         padding-bottom:20px;
     }
     .port_pos_text {
-        padding: 8px 160px 8px 30px;
+        width: 277px;
+        height: 97px;
         bottom: 35px;
+        padding: 10px;
     }
 
     .port_pos_text p {
 
         font-size: 14px;
-
     }
 
     .port_pos_text h3 {
         font-size: 20px;
     }
     .port_behance{
-        bottom: -42px;
+        top: -42px;
         
     }
     .port_behance_btn{
@@ -213,6 +231,10 @@
 }
 @media screen and (max-width:372px) {
     .port_pos_text {
-        padding: 2px 70px 2px 30px;
+       width: 240px;
+       height: auto;
+    }
+    .port_pos_text h3 {
+        font-size: 13px;
     }
 }

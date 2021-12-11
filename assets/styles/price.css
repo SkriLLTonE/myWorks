@@ -59,6 +59,7 @@
 }
 
 .card_body_content_btn {
+    display: flex;
     border-radius: 50%;
     outline: none;
     border: none;
